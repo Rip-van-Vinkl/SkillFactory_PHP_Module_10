@@ -1,0 +1,33 @@
+.calc-row {
+    height: 100vh;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.input-window {
+    text-align: end;
+    font-size: x-large;
+}
+
+#btn_clr {
+    color: white;
+    background: rgb(212,75,56);
+  }
+  
+#btn_calc {
+    color: rgb(75, 0, 205);
+    background: rgb(255, 255, 136);
+  }
+
+#btn_1, #btn_2, #btn_3, #btn_4, #btn_5, #btn_6, #btn_7, #btn_8, #btn_9, #btn_0 {
+    color: white;
+    background: rgb(46, 0, 183);
+}
+
+#calc {
+    background: rgb(37, 0, 53);
+}
+
+#btn_sum, #btn_def, #btn_mult, #btn_pm, #btn_sep, #btn_divis, #btn_root, #btn_degr {
+    color: white;
+    background: rgb(0, 114, 42);
+}
