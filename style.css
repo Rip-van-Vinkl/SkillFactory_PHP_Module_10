@@ -8,7 +8,7 @@
     font-size: x-large;
 }
 
-#btn_clr {
+#btn_clr, #btn_lastClr {
     color: white;
     background: rgb(212,75,56);
   }
@@ -27,7 +27,26 @@
     background: rgb(37, 0, 53);
 }
 
-#btn_sum, #btn_def, #btn_mult, #btn_pm, #btn_sep, #btn_divis, #btn_root, #btn_degr {
+#btn_sum, #btn_def, #btn_mult, #btn_divis, #btn_root, #btn_degr {
     color: white;
     background: rgb(0, 114, 42);
+}
+
+#btn_pm, #btn_sep {
+    color: rgb(75, 0, 205);
+    background: rgb(255, 141, 1);
+}
+
+#btn_М1, #btn_М2, #Memory1, #Memory2 {
+    margin-top: 6px;
+    font-size: 13px;
+}
+
+#Memory1, #Memory2 {
+    background: rgb(255, 255, 255);
+
+}
+
+#btn_М1, #btn_М2 {
+    color: rgb(0, 206, 252);
 }
